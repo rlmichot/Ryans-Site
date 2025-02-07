@@ -1,0 +1,53 @@
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Link styling to match dj4e.com */
+#link {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+#link a {
+    text-decoration: none;
+    color: white;
+    background-color: #0a4b33;
+    padding: 10px 20px;
+}
+
+/* Common div styles */
+div {
+    position: fixed;
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Individual box positions and colors */
+#one {
+    top: 0;
+    left: 0;
+    border: 5px solid blue;
+}
+
+#two {
+    top: 0;
+    right: 0;
+    border: 5px solid green;
+}
+
+#three {
+    bottom: 0;
+    left: 0;
+    border: 5px solid orange;
+}
+
+#four {
+    bottom: 0;
+    right: 0;
+    border: 5px solid yellow;
